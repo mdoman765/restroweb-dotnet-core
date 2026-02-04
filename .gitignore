@@ -1,0 +1,72 @@
+# ================================
+# Visual Studio / IDE files
+# ================================
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ================================
+# Build results
+# ================================
+bin/
+obj/
+out/
+
+# ================================
+# ASP.NET Core / .NET Core
+# ================================
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ================================
+# NuGet
+# ================================
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+*.nuget.props
+*.nuget.targets
+.nuget/packages/
+
+# ================================
+# ASP.NET Core runtime files
+# ================================
+*.db
+*.log
+appsettings.*.json
+secrets.json
+*.vsix
+*.pdb
+*.cache
+*.dotCover
+
+# ================================
+# Rider / JetBrains IDE
+# ================================
+.idea/
+*.sln.iml
+
+# ================================
+# Mac / Linux system files
+# ================================
+.DS_Store
+Thumbs.db
+
+# ================================
+# Node / Frontend (if any)
+# ================================
+node_modules/
+wwwroot/lib/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ================================
+# Others
+# ================================
+*.env
